@@ -1,0 +1,7 @@
+/mesh-ca/
+├── coins-meshCA.crt
+├── coins-meshCA.key
+├── vpn-node.key + .crt
+├── wallet-server.key + .crt
+├── discord-hook.key + .crt
+├── signer.key + signer.pub
