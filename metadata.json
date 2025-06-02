@@ -1,0 +1,26 @@
+{
+  "ca": {
+    "description": "Root Certificate Authority for YourCoin Mesh",
+    "file": "ca/coins-meshCA.crt"
+  },
+  "wallet": {
+    "description": "Server certificate for wallet APIs",
+    "key": "wallet/wallet-server.key",
+    "cert": "wallet/wallet-server.crt"
+  },
+  "vpn": {
+    "description": "Node certificate for VPN mesh tunnels",
+    "key": "vpn/vpn-node.key",
+    "cert": "vpn/vpn-node.crt"
+  },
+  "discord": {
+    "description": "Certificate for Discord webhook or bot TLS",
+    "key": "discord/discord-hook.key",
+    "cert": "discord/discord-hook.crt"
+  },
+  "signer": {
+    "description": "Key pair for signing coins or transactions",
+    "private_key": "signer/signer.key",
+    "public_key": "signer/signer.pub"
+  }
+}
